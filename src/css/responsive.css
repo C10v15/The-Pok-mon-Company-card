@@ -1,0 +1,59 @@
+@media(max-width: 620px) {
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+   .cabecalho .titulo{
+    font-size: 25px;
+   }
+
+   .cabecalho .pokebola {
+    width: 40px;
+    height: 40px;
+}
+   
+    .pokemon-slider{
+        padding: 15px;
+        gap: 10px;
+        margin: 0 0 30px;
+
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-pokemons {
+        height: 480px;
+    }
+
+    .cartao .imagem-polemon {
+        max-height: 230px;
+    }
+    .cartao .descricao{
+        height: 100px;
+    }
+    .cartao .descricao .texto{
+        overflow: auto;
+        height: 50px;
+    }
+
+    .cartao .informacoes .nome{
+        max-width: 50px;
+        font-size: 18px;
+    }
+
+    .informacoes .vida {
+        font-size: 14px;
+    }
+
+    
+
+}
